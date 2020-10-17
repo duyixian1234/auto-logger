@@ -1,4 +1,4 @@
-__version__ = "0.1.0"
+__version__ = "0.1.1"
 
 import json
 import logging
@@ -22,7 +22,7 @@ def formatText(
             f" OF {objStr} WITH ARGS {args} KWARGS {kwargs} RETURNS  {ret}"
         )
     return (
-        f"CALL FUCNTION <{func.__name__ if func else 'Unknown'} >" f" WITH ARGS {args} KWARGS {kwargs} RETURNS  {ret}"
+        f"CALL FUCNTION <{func.__name__ if func else 'Unknown'}>" f" WITH ARGS {args} KWARGS {kwargs} RETURNS  {ret}"
     )
 
 

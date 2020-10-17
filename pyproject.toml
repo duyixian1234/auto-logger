@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "auto-logger"
-version = "0.1.0"
+version = "0.1.1"
 description = "Automatically add function call logs and method call logs for Python code."
 authors = ["duyixian <duyixian1234@qq.com>"]
 license = "MIT"
