@@ -1,4 +1,6 @@
 site_name: auto-logger
+site_author: duyixian
+site_url: https://auto-logger.readthedocs.io
 nav:
   - Home: 
     - 'Getting Started': user-guide/getting-started.md
