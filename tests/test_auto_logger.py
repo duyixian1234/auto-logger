@@ -1,7 +1,11 @@
 import json
-from auto_logger import formatJson, logFuncCall, MethodLoggerMeta, Config, formatText
-from unittest import mock
 from dataclasses import dataclass
+from unittest import mock
+
+from auto_logger.auto_logger import MethodLoggerMeta, logFuncCall
+from auto_logger.config import Config
+from auto_logger.json_formatter import formatJson
+from auto_logger.text_formatter import formatText
 
 
 @dataclass
