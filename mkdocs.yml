@@ -1,0 +1,9 @@
+site_name: auto-logger
+nav:
+  - Home: 
+    - 'Getting Started': user-guide/getting-started.md
+    - 'Configuration Options': user-guide/configuration-options.md
+  - About: about.md
+theme: readthedocs
+repo_url: https://github.com/duyixian1234/auto-logger/
+

@@ -1,0 +1,21 @@
+site_name: api-doc
+theme:
+  name: 'material'
+nav:
+    - Home: index.md
+    - Reference:
+
+markdown_extensions:
+    - toc:
+        toc_depth: 3
+        permalink: True
+    - extra
+    - smarty
+    - codehilite
+    - admonition
+    - pymdownx.details
+    - pymdownx.superfences
+    - pymdownx.emoji
+    - pymdownx.inlinehilite
+    - pymdownx.magiclink
+    
